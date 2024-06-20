@@ -1,4 +1,5 @@
-import List from "@/pages/list";
+import List from "@/app/list/page";
+
 
 export default function Home() {
   return (

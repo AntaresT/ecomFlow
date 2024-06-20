@@ -5,6 +5,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -29,11 +30,14 @@ const config: Config = {
       colors: {
         "offWhite": "#F3F4F6",
         "orange": "#FF7600",
-        "gray": "#6B7280"
+        "gray": "#6B7280",
+        "lightGray": "#F9FAFB"
       },
       padding: {
+        "52": "52px",
         "74": "74.5px",
-        "104": "104px"
+        "104": "104px",
+        "227": "227px"
       },
       screens: {
         "laptop-lg": "1366px",
@@ -41,6 +45,8 @@ const config: Config = {
       },
       height: {
         "40": "40px",
+        "231": "231px",
+        "471": "471px",
         "588": "588px"
       },
       maxWidth: {
@@ -50,7 +56,9 @@ const config: Config = {
         "105": "105px",
         "226": "226px",
         "290": "290px",
-        "400": "400px"
+        "400": "400px",
+        "467": "467px",
+        "596": "596px"
       }
     },
   },
