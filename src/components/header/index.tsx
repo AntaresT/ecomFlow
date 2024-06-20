@@ -6,13 +6,13 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <nav className="flex py-5 px-32 max-h-16 justify-between">
+    <nav className="flex py-5 px-32 max-h-16 justify-between border-b-offWhite border-b-2">
       <Image src={Logo} alt="logo" />
 
       <div >
         <ul className="flex items-center gap-4">
           <li>
-            <Link href={"/"} className="flex items-center">
+            <Link href={"/cart"} className="flex items-center">
               <Image src={Bag} alt="Bag" className="h-4 w-4 mr-3" />
               <h5>Carrinho</h5>
             </Link>

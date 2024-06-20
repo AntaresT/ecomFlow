@@ -31,7 +31,8 @@ const config: Config = {
         "offWhite": "#F3F4F6",
         "orange": "#FF7600",
         "gray": "#6B7280",
-        "lightGray": "#F9FAFB"
+        "lightGray": "#F9FAFB",
+        "lightRed": "#FF00001A"
       },
       padding: {
         "52": "52px",
@@ -45,15 +46,18 @@ const config: Config = {
       },
       height: {
         "40": "40px",
+        "150": "150px",
         "231": "231px",
         "471": "471px",
         "588": "588px"
       },
       maxWidth: {
         "419": "419px",
+        "618": "618px"
       },
       width: {
         "105": "105px",
+        "150": "150px",
         "226": "226px",
         "290": "290px",
         "400": "400px",
