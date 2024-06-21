@@ -25,7 +25,13 @@ export default function Filters() {
             <Image src={SearchIcon} alt="search-icon" className="absolute right-3 top-3" />
           </div>
           <section>
-            <Checkbox label="teste" register={register} />
+            <Checkbox label="Botas" register={register} />
+            <Checkbox label="Chinelos" register={register} />
+            <Checkbox label="Chuteiras" register={register} />
+            <Checkbox label="Sandálias" register={register} />
+            <Checkbox label="Sapatênis" register={register} />
+            <Checkbox label="Tênis" register={register} />
+            <Checkbox label="Tênis de corrida" register={register} />
           </section>
         </section>
       </div>
