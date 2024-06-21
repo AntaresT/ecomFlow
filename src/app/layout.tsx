@@ -1,3 +1,4 @@
+import { DataProvider } from "@/context/dataContext";
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
@@ -26,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} ${inter.className}`}>{children}</body>
+      <DataProvider>
+        <body className={`${poppins.className} ${inter.className}`}>{children}</body>
+      </DataProvider>
     </html>
   );
 }
