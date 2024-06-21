@@ -10,7 +10,7 @@
     "host": "localhost",
     "port": "3030",
     "method": "get",
-    "path": "/api/products/",
+    "path": "/api/products/:{id}",
     "headers": {
       "content-type": "application/json" 
     }

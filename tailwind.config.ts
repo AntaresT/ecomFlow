@@ -41,6 +41,7 @@ const config: Config = {
         "227": "227px"
       },
       screens: {
+        "mobile": "480px",
         "laptop-lg": "1366px",
         "desktop": "1440px",
       },

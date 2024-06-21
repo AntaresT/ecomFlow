@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <nav className="flex py-5 px-32 max-h-16 justify-between border-b-offWhite border-b-2">
+    <nav className="flex py-5 px-32 max-[480px]:px-0 max-[480px]:py-2  max-h-16 justify-between border-b-offWhite border-b-2">
       <Image src={Logo} alt="logo" />
 
       <div >
